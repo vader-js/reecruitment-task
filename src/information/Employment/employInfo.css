@@ -1,0 +1,42 @@
+.employInformation{
+    flex: 40%;
+    margin-bottom: 2rem;
+    max-width: 45%;
+}
+.employInformation h1{
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.employInformation h1 span{
+    width: 15%;
+    cursor: pointer;
+}
+.formE{
+    font-size: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.formE label{
+    display: flex;
+    margin: 0.5rem 0;
+    flex-direction: column;
+    flex: 25%;
+}
+.formE input, .formE select{
+    font-size: inherit;
+    width: 100px;
+    margin-top: 0.5rem;
+    border: none;
+    opacity: 0.5;
+}
+.formE input:focus, .formE select:focus{
+    outline: none;
+    opacity: 1;
+}
+@media screen and (max-width: 450px){
+    .employInformation{
+        max-width: 100%;
+    }
+}

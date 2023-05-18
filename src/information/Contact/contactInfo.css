@@ -1,0 +1,42 @@
+.contactInformation{
+    flex: 40%;
+    margin-bottom: 2rem;
+    max-width: 45%;
+}
+.contactInformation h1{
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.contactInformation h1 span{
+    width: 30%;
+    cursor: pointer;
+}
+.formC{
+    font-size: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.formC label{
+    display: flex;
+    margin-bottom: 0.5rem;
+    flex-direction: column;
+    flex: 30%;
+}
+.formC input, .formC select{
+    font-size: inherit;
+    width: 100px;
+    margin: 0.5rem 0;
+    border: none;
+    opacity: 0.5;
+}
+.formC input:focus, .formC select:focus{
+    outline: none;
+    opacity: 1;
+}
+@media screen and (max-width: 450px){
+    .contactInformation{
+        max-width: 100%;
+    }
+}
