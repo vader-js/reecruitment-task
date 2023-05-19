@@ -206,12 +206,14 @@ input[type="file"]{
 
 @media screen and (max-width: 450px){
     .profileContainer{
-        display: block;
+        flex-direction: column;
         padding: 0 1%;
     }
     .menu{
-        display: none;
-    }
+        width: 100%;
+        margin: 0 auto;
+        margin-bottom: 1.5rem;
+    }  
     .info{
         flex-direction: column;
     }
